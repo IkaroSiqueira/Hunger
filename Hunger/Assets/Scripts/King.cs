@@ -4,21 +4,30 @@ using UnityEngine;
 
 public class King : MonoBehaviour
 {
+    [SerializeField] private int _health = 100;
+    
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "food" || collision.gameObject.tag == "lethalFood")
         {
-            if (GlobalData.currentPlayerFood != "")
+            if (GlobalData.currentPlayerFood == "food")
             {
-                if (GlobalData.currentPlayerFood == "food")
-                {
-                    //takes some poison damage
-                }
-                else if (GlobalData.currentPlayerFood == "lethal")
-                {
-                    //takes a lot of poison damage
-                }
+                _health -= 5;
+                Destroy(collision.gameObject);
             }
+            else if (GlobalData.currentPlayerFood == "lethalFood")
+            {
+                _health -= 10;
+                Destroy(collision.gameObject);
+            }
+
+            if(_health <= 0)
+            {
+                //Player wins
+            }
+
+            Debug.Log(GlobalData.currentPlayerFood);
+            Debug.Log(_health);
         }
     }
 }
