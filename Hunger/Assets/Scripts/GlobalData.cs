@@ -4,5 +4,7 @@ using UnityEngine;
 
 public class GlobalData
 {
-    static public string currentPlayerFood = "";    
+    static public string currentPlayerFood = "";
+    static public float TimeLeft = 0f;
+    static public float timeToFeed = 10f;
 }

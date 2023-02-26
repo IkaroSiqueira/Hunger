@@ -2548,7 +2548,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-50252
+  m_Name: pb_Mesh62354
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4725,6 +4725,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2668716887687771170, guid: 7dfb3a38dae8cbd47a715b796a26fedf, type: 3}
+      propertyPath: orientation
+      value: 
+      objectReference: {fileID: 477143420}
     - target: {fileID: 2668716888040398861, guid: 7dfb3a38dae8cbd47a715b796a26fedf, type: 3}
       propertyPath: cameraPosition
       value: 
