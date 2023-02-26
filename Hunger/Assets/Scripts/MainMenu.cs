@@ -20,6 +20,7 @@ public class MainMenu : MonoBehaviour
     public void MainGameScene()
     {
         GlobalData.TimeLeft = GlobalData.baseTimeReset;
+        GlobalData.currentGameTimeReset = GlobalData.baseTimeReset;
         SceneManager.LoadScene(GlobalData.levelSceneNumber);
     }
     public void QuitGame()
