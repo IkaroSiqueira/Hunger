@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/King's Hall.unity
+    guid: 0299c12254a73b647ad4e869e3aa4e3c
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: aa126753fa11e984aac2c34cacada614
