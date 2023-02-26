@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class King : MonoBehaviour
 {
-    [SerializeField] private int _health = 100;
+    [SerializeField] private int _health = 50;
     
     private void OnCollisionEnter(Collision collision)
     {
@@ -24,6 +24,8 @@ public class King : MonoBehaviour
             if(_health <= 0)
             {
                 //Player wins
+                MainMenu.GameWon();
+                Cursor.lockState = CursorLockMode.None;
             }
 
             Debug.Log(GlobalData.currentPlayerFood);
