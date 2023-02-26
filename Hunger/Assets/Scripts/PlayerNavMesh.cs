@@ -14,7 +14,7 @@ public class PlayerNavMesh : MonoBehaviour
     public Transform eye;
     public Transform target;
     Vector3 lastPosition;
-    private float _detectionRange = 6f;
+    private float _detectionRange = 5f;
 
     private void Start()
     {
