@@ -7,11 +7,15 @@ public class MainMenu : MonoBehaviour
 {
     public void GameWon()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
     }
     public void GameLoss()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene(1);
     }
     public void TestButtonPressed()
     {
