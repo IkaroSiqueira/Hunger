@@ -10,6 +10,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _speed = 10.0f;
 
     private bool _travelingToObjectOne = true;
+    private float _detectionRange = 6;
+    private bool _chasingPlayer = false;
+    private GameObject _playerReference = null;
     private Rigidbody _rigidBod = null;
 
     private void Start()
@@ -19,7 +22,17 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        _Patrol();
+        if (_chasingPlayer == false)
+        {
+            if(patrolObjectOne != null && patrolObjectTwo != null)
+            {
+                _Patrol();
+            }
+        }
+        else if (_playerReference != null)
+        {
+            _MoveTowardsObject(_playerReference);
+        }
     }
 
     private void _Patrol()
@@ -28,11 +41,11 @@ public class Enemy : MonoBehaviour
         _CheckReachedPatrolObject();
         if (_travelingToObjectOne)
         {
-            _MoveTowardsPatrolObject(patrolObjectOne);
+            _MoveTowardsObject(patrolObjectOne);
         }
         else
         {
-            _MoveTowardsPatrolObject(patrolObjectTwo);
+            _MoveTowardsObject(patrolObjectTwo);
         }
     }
 
@@ -55,11 +68,29 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void _MoveTowardsPatrolObject(GameObject patrolObject)
+    private void _MoveTowardsObject(GameObject patrolObject)
     {
         //Gets the direction of the object and removes the y axis from the calculation, this way the enemy won't try and move vertically.
         Vector3 _objectDir = (patrolObject.transform.position - transform.position);
         _objectDir.y = 0;
         _rigidBod.velocity = _objectDir.normalized * _speed * Time.deltaTime * 100;
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, (other.gameObject.transform.position - transform.position).normalized, out hit, _detectionRange))
+            {
+                if (hit.transform.gameObject.tag == "Player")
+                {
+                    //hit.transform.gameObject;
+                    _chasingPlayer = true;
+                    _playerReference = other.gameObject;
+                }
+            }
+        }
+    }
+    
 }
