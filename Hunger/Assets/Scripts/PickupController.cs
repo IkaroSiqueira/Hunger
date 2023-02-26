@@ -22,9 +22,11 @@ public class PickupController : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, _pickupRange))
                 {
-                    if(hit.transform.gameObject.tag == "Pickup")
+                    string objectTag = hit.transform.gameObject.tag;
+                    if(objectTag == "food" || objectTag == "lethalFood")
                     {
                         PickupObject(hit.transform.gameObject);
+                        GlobalData.currentPlayerFood = objectTag;
                     }
                 }
             }
@@ -33,9 +35,17 @@ public class PickupController : MonoBehaviour
                 DropObject();
             }
         }
+
         if(_heldObj != null)
         {
-            MoveObject();
+            if(GlobalData.currentPlayerFood != "")
+            {
+                MoveObject();
+            }
+            else
+            {
+                _heldObj = null;
+            }
         }
     }
 
@@ -64,11 +74,13 @@ public class PickupController : MonoBehaviour
 
     void DropObject()
     {
-            _heldObjRB.useGravity = true;
-            _heldObjRB.drag = 1;
-            _heldObjRB.constraints = RigidbodyConstraints.None;
+        GlobalData.currentPlayerFood = "";
+        
+        _heldObjRB.useGravity = true;
+        _heldObjRB.drag = 1;
+        _heldObjRB.constraints = RigidbodyConstraints.None;
 
-            _heldObjRB.transform.parent = null;
-            _heldObj = null;
+        _heldObjRB.transform.parent = null;
+        _heldObj = null;
     }
 }
