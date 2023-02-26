@@ -511,7 +511,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1721406935}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: TestButtonPressed
+        m_MethodName: MainGameScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
