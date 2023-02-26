@@ -12,11 +12,14 @@ public class King : MonoBehaviour
         {
             if (GlobalData.currentPlayerFood == "food")
             {
+                GlobalData.TimeLeft = GlobalData.currentGameTimeReset;
                 _health -= 5;
                 Destroy(collision.gameObject);
             }
             else if (GlobalData.currentPlayerFood == "lethalFood")
             {
+                GlobalData.currentGameTimeReset += GlobalData.lethalCurrentTimeIncrease;
+                GlobalData.TimeLeft = GlobalData.currentGameTimeReset;
                 _health -= 10;
                 Destroy(collision.gameObject);
             }

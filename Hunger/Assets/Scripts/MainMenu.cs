@@ -7,19 +7,20 @@ public class MainMenu : MonoBehaviour
 {
     static public void GameWon()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(GlobalData.winSceneNumber);
     }
     public void GameLoss()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(GlobalData.loseSceneNumber);
     }
     public void Menu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(GlobalData.mainMenuSceneNumber);
     }
     public void MainGameScene()
     {
-        SceneManager.LoadScene(0);
+        GlobalData.TimeLeft = GlobalData.baseTimeReset;
+        SceneManager.LoadScene(GlobalData.levelSceneNumber);
     }
     public void QuitGame()
     {

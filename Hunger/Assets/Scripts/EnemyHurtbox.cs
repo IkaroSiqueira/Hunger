@@ -10,7 +10,7 @@ public class EnemyHurtbox : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             //kill player
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(GlobalData.loseSceneNumber);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
