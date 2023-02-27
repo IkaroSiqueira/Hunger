@@ -17579,6 +17579,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (6)
@@ -18275,6 +18279,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: aac681dff968729448c95dd5a7c6fd36, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (1)
@@ -18337,6 +18349,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2142857804}
     m_Modifications:
+    - target: {fileID: 8053430435574485144, guid: 6b7fd93b8a77ba74095ada701f279173, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8413696346431893837, guid: 6b7fd93b8a77ba74095ada701f279173, type: 3}
       propertyPath: m_Name
       value: Table (2)
@@ -18977,6 +18993,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (7)
@@ -26349,6 +26369,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (8)
@@ -36477,6 +36501,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2142857804}
     m_Modifications:
+    - target: {fileID: 8053430435574485144, guid: 6b7fd93b8a77ba74095ada701f279173, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8413696346431893837, guid: 6b7fd93b8a77ba74095ada701f279173, type: 3}
       propertyPath: m_Name
       value: Table
@@ -46127,6 +46155,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (5)
@@ -54313,6 +54345,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (4)
@@ -71333,6 +71369,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (3)
@@ -79864,6 +79904,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: aac681dff968729448c95dd5a7c6fd36, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate
@@ -85002,6 +85050,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1099505963}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (2)
