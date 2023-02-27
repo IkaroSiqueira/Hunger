@@ -10,8 +10,8 @@ public class GlobalData
     static public float currentGameTimeReset = 24;
     static public float lethalCurrentTimeIncrease = 3;
 
-    static public int mainMenuSceneNumber = 1;
-    static public int levelSceneNumber = 0;
+    static public int mainMenuSceneNumber = 0;
+    static public int levelSceneNumber = 1;
     static public int winSceneNumber = 3;
     static public int loseSceneNumber = 2;
 }
