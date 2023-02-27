@@ -5094,7 +5094,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh474912
+  m_Name: pb_Mesh68936
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6542,6 +6542,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9099116873325153974, guid: 2a468b0122e63654697267e931e0b16b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f86fa3c73dc6552478a7eaf0250f7743, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a468b0122e63654697267e931e0b16b, type: 3}
 --- !u!4 &136970550 stripped
@@ -11864,6 +11868,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &250408081 stripped
@@ -14140,6 +14148,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (8)
@@ -16550,7 +16562,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh476140
+  m_Name: pb_Mesh70174
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20302,6 +20314,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &476348109 stripped
@@ -20929,7 +20945,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh475474
+  m_Name: pb_Mesh69502
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22754,7 +22770,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh474476
+  m_Name: pb_Mesh68492
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22995,6 +23011,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (6)
@@ -25193,6 +25213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (9)
@@ -25903,7 +25927,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh476326
+  m_Name: pb_Mesh70360
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27736,6 +27760,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (4)
@@ -29927,6 +29955,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9099116873325153974, guid: 2a468b0122e63654697267e931e0b16b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f86fa3c73dc6552478a7eaf0250f7743, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a468b0122e63654697267e931e0b16b, type: 3}
 --- !u!1001 &712525217
@@ -37010,6 +37042,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &866005161 stripped
@@ -40418,7 +40454,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh472906
+  m_Name: pb_Mesh66908
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -43154,7 +43190,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh476164
+  m_Name: pb_Mesh70198
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -43895,7 +43931,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh474598
+  m_Name: pb_Mesh68616
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -44705,6 +44741,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &1066145563 stripped
@@ -46332,7 +46372,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh472882
+  m_Name: pb_Mesh66884
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -47958,6 +47998,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (7)
@@ -53039,6 +53083,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9099116873325153974, guid: 2a468b0122e63654697267e931e0b16b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f86fa3c73dc6552478a7eaf0250f7743, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a468b0122e63654697267e931e0b16b, type: 3}
 --- !u!4 &1258754728 stripped
@@ -56586,6 +56634,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &1325345849 stripped
@@ -59025,6 +59077,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (5)
@@ -60376,6 +60432,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!1001 &1426028223
@@ -61886,7 +61946,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh476604
+  m_Name: pb_Mesh70642
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -62926,6 +62986,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &1469377404 stripped
@@ -62940,6 +63004,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (10)
@@ -63529,7 +63597,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh476722
+  m_Name: pb_Mesh70760
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -64453,6 +64521,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (1)
@@ -64846,6 +64918,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &1518329628 stripped
@@ -66289,6 +66365,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &1532803661 stripped
@@ -66688,6 +66768,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1104297609}
     m_Modifications:
+    - target: {fileID: 8053430435574485144, guid: 6b7fd93b8a77ba74095ada701f279173, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8413696346431893837, guid: 6b7fd93b8a77ba74095ada701f279173, type: 3}
       propertyPath: m_Name
       value: Table
@@ -68492,7 +68576,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh472772
+  m_Name: pb_Mesh66774
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -72413,6 +72497,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (2)
@@ -73989,6 +74077,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9099116873325153974, guid: 2a468b0122e63654697267e931e0b16b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f86fa3c73dc6552478a7eaf0250f7743, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a468b0122e63654697267e931e0b16b, type: 3}
 --- !u!1001 &1710829963
@@ -76721,7 +76813,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh472704
+  m_Name: pb_Mesh66704
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -79244,6 +79336,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &1828046087 stripped
@@ -80276,7 +80372,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh474546
+  m_Name: pb_Mesh68564
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -86534,6 +86630,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate (3)
@@ -91648,6 +91748,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703447402228456115, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaaa7cbda8b33b43b0516a6e688df9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678886c182ea9024bb2d0a5246d63c21, type: 3}
 --- !u!4 &2139042108 stripped
@@ -92390,6 +92494,10 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.36158624
       objectReference: {fileID: 0}
+    - target: {fileID: 8053430435574485144, guid: 6b7fd93b8a77ba74095ada701f279173, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8413696346431893837, guid: 6b7fd93b8a77ba74095ada701f279173, type: 3}
       propertyPath: m_Name
       value: Table
@@ -92560,6 +92668,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63031213}
     m_Modifications:
+    - target: {fileID: 7970293511116266778, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ccf43cfad0b0c940b461f505bdbbee9, type: 2}
     - target: {fileID: 8474885854861475023, guid: fa6cb64e6a3f4274ca5423b8b4c650fe, type: 3}
       propertyPath: m_Name
       value: Crate
