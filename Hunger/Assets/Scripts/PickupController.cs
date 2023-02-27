@@ -13,6 +13,8 @@ public class PickupController : MonoBehaviour
     [SerializeField] private float _pickupRange = 5.0f;
     [SerializeField] private float pickupForce = 150.0f;
 
+    [SerializeField] private AudioSource _pickupSound = null;
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -69,6 +71,8 @@ public class PickupController : MonoBehaviour
 
             _heldObjRB.transform.parent = holdArea;
             _heldObj = pickObj;
+
+            _pickupSound.Play(0);
         }
     }
 

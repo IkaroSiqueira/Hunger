@@ -6,13 +6,18 @@ public class King : MonoBehaviour
 {
     [SerializeField] private float _health = 50;
     private float _maxHealth = 50;
-    
+
+    [SerializeField] private AudioSource _eat = null;
+    [SerializeField] private AudioSource _eatPoison = null;
+    [SerializeField] private AudioSource _hungry = null;
+
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "food" || collision.gameObject.tag == "lethalFood")
         {
             if (GlobalData.currentPlayerFood == "food")
             {
+                _eat.Play(0);
                 GlobalData.TimeLeft = GlobalData.currentGameTimeReset;
                 _health -= 5;
 
@@ -26,6 +31,7 @@ public class King : MonoBehaviour
             }
             else if (GlobalData.currentPlayerFood == "lethalFood")
             {
+                _eatPoison.Play(0);
                 GlobalData.currentGameTimeReset += GlobalData.lethalCurrentTimeIncrease;
                 GlobalData.TimeLeft = GlobalData.currentGameTimeReset;
                 _health -= 10;
@@ -45,9 +51,6 @@ public class King : MonoBehaviour
                 MainMenu.GameWon();
                 Cursor.lockState = CursorLockMode.None;
             }
-
-            Debug.Log(GlobalData.currentPlayerFood);
-            Debug.Log(_health);
         }
     }
 }

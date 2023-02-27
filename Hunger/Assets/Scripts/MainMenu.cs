@@ -22,6 +22,7 @@ public class MainMenu : MonoBehaviour
         GlobalData.TimeLeft = GlobalData.baseTimeReset;
         GlobalData.currentGameTimeReset = GlobalData.baseTimeReset;
         SceneManager.LoadScene(GlobalData.levelSceneNumber);
+
     }
     public void QuitGame()
     {
