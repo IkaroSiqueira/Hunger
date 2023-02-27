@@ -6,6 +6,7 @@ TagManager:
   tags:
   - food
   - lethalFood
+  - Music
   layers:
   - Default
   - TransparentFX
